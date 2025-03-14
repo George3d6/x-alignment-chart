@@ -23,7 +23,8 @@ https://github.com/user-attachments/assets/2e5e2587-468e-4a77-ac59-742c92f8d58a
 2. Setup a Redis DB on [Upstash Redis](https://upstash.com/)
 3. Create a `.env.local` file based on the `.env.example` template
 4. `bun install` to install dependencies
-5. `bun dev` to run the development server
+5. Install `pino-pretty` globally e.g. by running: `npm install -g pino-pretty`
+6. `bun dev` to run the development server
 
 
 ## Deploy your own
